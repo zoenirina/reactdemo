@@ -1,0 +1,70 @@
+.navba{
+    background-color: rgb(218, 242, 165);
+    color: rgb(37, 36, 36);
+    padding: 10px;
+    font-size: 0.8em;
+   
+
+}
+.icone-share{
+    /* display: flex; */
+    display: flex;
+    margin-right: 4px;
+    /* justify-content: space-between; */
+    align-items:center;
+    gap: 20px;
+  /*  width: 400px; */
+}
+.contact{
+    display:flex;
+    justify-content:flex-start;
+}
+.icon-menu{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    width: 80px;
+    height: 40px;
+    border: none;
+    background-color:rgb(219, 246, 161);
+    /* box-shadow:0.8rem 0.8rem 2.4rem rgb(176, 200, 81), -0.75em -0.75em 2.8rem rgb(218, 242, 165); */
+    box-shadow:rgba(97, 160, 9, 0.177) 1.95px 1.95px 2.6px, -0.75em -0.75em 2.8rem rgba(234, 247, 209, 0.52);
+    border-radius: 40px;
+    transition: 0.5s;
+
+}
+.icon-menu:hover{
+    background-color: #ccfb8a;
+}
+.ico{
+    height: 22px;
+    width: 22px;
+}
+.animTest {
+    font-size: 40px;
+    padding: 128px 0 64px 0;
+    color: rgb(43, 86, 0);
+    margin: 0 50px;
+  }
+  .w3-animate-left {
+    position: relative;
+    animation: animatetop 0.4s;
+      animation-name: animateleft;
+      animation-duration: 0.4s;
+      animation-timing-function: ease;
+      animation-delay: 0s;
+      animation-iteration-count: 1;
+      animation-direction: normal;
+      animation-fill-mode: none;
+      animation-play-state: running;
+  }
+  @keyframes animatetop {
+    0% {
+        top: -300px;
+        opacity: 0;
+      }
+      100% {
+        top: 0;
+        opacity: 1;
+      }
+    
+  }
