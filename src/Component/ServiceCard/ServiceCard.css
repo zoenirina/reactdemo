@@ -1,7 +1,6 @@
 
  ul >li {
     text-decoration: none;
-    
     list-style-position: outside;
   } 
   .demo{
@@ -12,3 +11,7 @@
   .cadre1{
     margin-left: 30px;
   }
+  .btn-blue{
+    background-color: #001a33;
+  }
+

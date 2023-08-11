@@ -2,10 +2,14 @@ import Navbar from './Component/Navbar/Navbar'
 import CarouselHome from './Component/CarouselHome/CarouselHome'
 import ServiceProperty from './Component/ServiceProperty/ServiceProperty'
 import WhyUs from './Component/ServiceCard/WhyUs'
+import ServiceOffreCard from './Component/ServiceOffreCard/ServiceOffreCard'
+import Slide from './Component/Slide/Slide'
 //import Carousel from './Component/Carousel/Carousel.js'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.js'
 import {Carousel} from 'react-bootstrap'
+
+import ServiceStatistic from './Component/ServiceStatistic/ServiceStatistic'
 //import ExampleCarouselImage from 'react-bootstrap/ExampleCarouselImage'
 
 import './App.css';
@@ -45,8 +49,11 @@ function App() {
     </Carousel>
 
 */}
-    <ServiceProperty/>
+<ServiceOffreCard></ServiceOffreCard>
+    <ServiceProperty/> 
     <WhyUs/>
+    <Slide/>
+    <ServiceStatistic/>
     </div>
   );
 }

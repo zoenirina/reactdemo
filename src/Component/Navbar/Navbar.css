@@ -1,5 +1,6 @@
 .navba{
-    background-color: rgb(218, 242, 165);
+  /* background-color: rgb(218, 242, 165); */
+  background-color: #f0f5f4;
     color: rgb(37, 36, 36);
     padding: 10px;
     font-size: 0.8em;
@@ -20,20 +21,21 @@
     justify-content:flex-start;
 }
 .icon-menu{
-    color: rgb(255, 255, 255);
+    color: rgb(235, 241, 251);
     font-weight: bold;
     width: 80px;
     height: 40px;
     border: none;
-    background-color:rgb(219, 246, 161);
+     background-image: linear-gradient(to right,#00284d  , rgb(38, 240, 125));
     /* box-shadow:0.8rem 0.8rem 2.4rem rgb(176, 200, 81), -0.75em -0.75em 2.8rem rgb(218, 242, 165); */
     box-shadow:rgba(97, 160, 9, 0.177) 1.95px 1.95px 2.6px, -0.75em -0.75em 2.8rem rgba(234, 247, 209, 0.52);
     border-radius: 40px;
     transition: 0.5s;
+    margin-right: 30px;
 
 }
 .icon-menu:hover{
-    background-color: #ccfb8a;
+    background-color: #071e33;
 }
 .ico{
     height: 22px;

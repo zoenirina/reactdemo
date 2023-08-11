@@ -1,0 +1,28 @@
+
+.text-orange {
+    color: rgb(230, 115, 0);
+}
+.bg-green {
+  color: rgb(14, 194, 86);
+}
+/* .bg-outline-green {
+  color: rgb(14, 194, 86);
+  border: 2px solid rgb(14, 194, 86);
+} */
+.bg-outline-green {
+  color: rgb(7, 138, 60);
+  border: 2px solid rgb(15, 148, 68);
+}
+.text-orange-l {
+  color: rgb(235, 255, 243);
+}
+.bg-orange {
+    background-color:#5ec15e;
+}
+#bg-orange {
+  background-color: rgb(230, 115, 0);
+}
+.bg-outline-orange{
+  border: 2px solid rgb(230, 115, 0);
+  color:rgb(230, 115, 0);
+}

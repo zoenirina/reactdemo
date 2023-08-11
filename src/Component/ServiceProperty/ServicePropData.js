@@ -14,5 +14,21 @@ export const ServicePropData=[{
     arrayl:['bonjour','salut','bonsoir'],
     heading:"EXPERIENCE",
     text:"Notre agence Web compte plus de 8 ans de service dans le domaine digital et des années impregnées de valeurs."
-},
+},{
+    arrayl:['bonjour','salut','bonsoir'],
+    heading:"PROFESSIONAL",
+    text:"Notre agence Web compte plus de 8 ans de service dans le domaine digital et des années impregnées de valeurs."
+},{
+    arrayl:['bonjour','salut','bonsoir'],
+    heading:"REACTIVITE",
+    text:"Nous restons à votre écoute et nous répondons à vos demandes"
+},{
+    arrayl:['bonjour','salut','bonsoir'],
+    heading:"LIVRAISON",
+    text:"Parce que nous respectons votre métier, nous nous tenons à un temps de livraison rapide."
+},{
+    arrayl:['bonjour','salut','bonsoir'],
+    heading:"SUPPORT",
+    text:"Les professionels de notre agence web vous garantissent un support technique des plus complets et efficaces."
+}
 ]

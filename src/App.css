@@ -37,6 +37,9 @@
 .demo{
   height: 300px;
 }
+.text-blue{
+  color: #001a33;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -45,4 +48,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+.text-orange {
+  color: "rgb(230, 115, 0)";
+}
+.bg-orange {
+  background-color: "rgb(230, 115, 0)";
 }

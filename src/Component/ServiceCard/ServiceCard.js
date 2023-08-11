@@ -4,21 +4,22 @@ import './ServiceCard.css'
 
 const ServiceCard = ({titre,prix,liste,footer}) => {
   return (
-    <div className='rounded col-sm-5 m-2 bg-light shadow-sm-1'>
-
-        <h3 className='text-primary m-2'>{titre}</h3>
+    <div className='rounded col-sm-5 m-2 shadow-sm-1 shadow-sm border'>
+        <h3 className='text-primary m-2 '>{titre}</h3>
         <hr/>
         <div className='d-flex cadre1'>
         <ul style={{textAlign: "start",textDecoration:"none"}}>
                 {liste.map((data)=>
                 <li style={{listStyle:"none"}}>{data}</li>
                 )}
+                <br/>
+          <p className='pl-5' style={{textAlign: "start"}}>A seulement: <span style={{color: "#ff8000"}}>{prix}  DH HT*</span></p>       
         </ul>
-        <img className='h-50' src={image1}/>
+        <img className='h-50'  style={{marginLeft:"80px",marginTop:"50px"}} src={image1}/>
         </div>
-            <span>A seulement: {prix} DH HT*</span>
-        <button className='btn btn-primary'>Decouvrir</button>
-        <h3 className='text-primary'>{footer}</h3>
+            {/* <p className='pl-5' style={{textAlign: "start"}}>A seulement: {prix} DH HT*</p> */}
+        <button style={{backgroundColor:"#001a33"}} className='btn btn-blue  text-white mb-5'>Decouvrir</button>
+        
     </div>
   )
 }

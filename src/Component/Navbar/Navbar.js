@@ -8,7 +8,7 @@ import youtube from '../../Component/asset/youtube.png'
 const Navbar = () => {
   return (
     <div className="navba shadow">
-        <div className="flex">
+        <div className="flex" style={{height:"24px"}}>
          <div className="icone-share">
 
             <a href=""><img className='ico' src={facebook}/></a>
@@ -21,7 +21,7 @@ const Navbar = () => {
          </div>
          <hr/>
          <div className="navbar">
-            <h2 className="Title">Titre du Site</h2>
+            <h2 style={{paddingLeft:"20px"}} className="Title fw-bold">Titre du Site</h2>
             <button className="icon-menu">menu</button>
         </div>
         {/* <div id="Left" class="animTest w3-animate-left">Animation is Fun!</div>     */}

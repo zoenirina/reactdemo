@@ -1,4 +1,4 @@
-.demo{
+/* .demo{
     height: 100%;
     background-color: rgba(0, 0, 0, 0.776);
     
@@ -8,7 +8,16 @@
 }
 .hcar{
     height: 900px;
-}
+} */
 .bac{
-    background-color: rgba(0, 0, 0, 0.776);
+    color: #1F1717;
+}
+.btn-orang{
+    background-color: rgb(230, 115, 0);
+    color: black;
+}
+.btn-outline-orang{
+    border-color: rgb(230, 115, 0);
+    color: rgb(230, 115, 0);
+    /* color: #509650; */
 }

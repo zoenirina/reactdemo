@@ -1,9 +1,10 @@
 import React from 'react'
 import {Carousel} from 'react-bootstrap'
 import image1 from '../../Component/asset/image1.jpg'
-import image2 from '../../Component/asset/image2.jpg'
-import image3 from '../../Component/asset/image3.jpg'
+import image02 from '../../Component/asset/image02.jpg'
+import image01 from '../../Component/asset/image01.jpg'
 import  './animate.min.css'
+import  './CarouselHome.css'
 
 const CarouselHome = () => {
   return (
@@ -11,39 +12,70 @@ const CarouselHome = () => {
         
         <Carousel controls dark>
     
-      <Carousel.Item style={{height:"450px"}}>
+      <Carousel.Item style={{height:"500px"}}>
        <div className='demo'>
        <img className='w-100' src={image1}/>
-       <p style={{position:"absolute",top:"20px",left:"30px"}}>Lorem bgfxbfgbnfnghngfh ghn,ghn,g</p>
+       {/* <p style={{position:"absolute",top:"20px",left:"30px"}}>Lorem bgfxbfgbnfnghngfh ghn,ghn,g</p> */}
        </div>
-        <Carousel.Caption style={{position:"absolute",top:"20px",left:"30px",textAlign:"start" }}>
-        <div className='text-black bac'>
-          <h3 className=' animate__animated animate__fadeInRight' style={{animationDelay:"0.1s"}}>First slide label</h3>
-          <p  className=' animate__animated animate__fadeInRight' style={{animationDelay:"0.5s"}}>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <Carousel.Caption style={{position:"absolute",top:"40px",left:"12%",textAlign:"start" }}>
+        <div className='bac'>
+          <h3 className=' animate__animated animate__fadeInRight' style={{animationDelay:"0.1s"}}>Application Pos gastro</h3>
+          <p  className=' animate__animated animate__fadeInRight' style={{animationDelay:"0.5s"}}>L'assistance qu'il vous faut pour mieux gérer votre restaurant.</p>
+          <ul className=' animate__animated animate__fadeInRight' style={{animationDelay:"0.8s"}}>
+            <li>Gestion des clients et des fournisseurs</li>
+            <li>Question des tables et des cuisines</li>
+            <li>Rôles de serveur et de chefs</li>
+            <li>Réçu et facture personnalisés</li>
+          </ul>
+          <p  className=' animate__animated animate__fadeInRight' style={{animationDelay:"1s"}}>Abonnement annuel à seulement : <br/> <h3>2950 DH HT</h3></p>
+        <span  className=' animate__animated animate__fadeInUpBig' style={{animationDelay:"1s"}}> 
+        <button style={{backgroundColor: "509650",color: "white"}} className="btn btn-orang m-1">Plus d'option</button>
+         <button style={{borderColor: "#509650",color: "#509650"}} className="btn btn-outline-orang m-1">Contactez-nous</button>
+         </span>
          </div>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item style={{height:"450px"}}>
+      <Carousel.Item style={{height:"500px"}}>
       <div className='demo'>
-        <img className='w-100' src={image2}/>
+        <img className='w-100' src={image02}/>
         </div>
-        <Carousel.Caption style={{position:"absolute",top:"20px",left:"30px"}}>
-        <div className='text-black'>
-          <h3  className=' animate__animated animate__fadeInRight' style={{animationDelay:"0.1s"}}>Second slide label</h3>
-          <p  className=' animate__animated animate__fadeInRight' style={{animationDelay:"0.5s"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
+        <Carousel.Caption style={{position:"absolute",top:"40px",left:"12%",textAlign:"start" }}>
+        <div className='bac'>
+          <h3 className=' animate__animated animate__fadeInRight' style={{animationDelay:"0.1s"}}>Application Pos gastro</h3>
+          <p  className=' animate__animated animate__fadeInRight' style={{animationDelay:"0.5s"}}>L'assistance qu'il vous faut pour mieux gérer votre restaurant.</p>
+          <ul className=' animate__animated animate__fadeInRight' style={{animationDelay:"0.8s"}}>
+            <li>Gestion des clients et des fournisseurs</li>
+            <li>Question des tables et des cuisines</li>
+            <li>Rôles de serveur et de chefs</li>
+            <li>Réçu et facture personnalisés</li>
+          </ul>
+          <p  className=' animate__animated animate__fadeInRight' style={{animationDelay:"1s"}}>Abonnement annuel à seulement : <br/> <h3>2950 DH HT</h3></p>
+        <span  className=' animate__animated animate__fadeInUpBig' style={{animationDelay:"1s"}}> 
+         <button style={{backgroundColor: "509650",color: "white"}} className="btn btn-orang m-1">Plus d'option</button>
+         <button style={{borderColor: "#509650",color: "#509650"}} className="btn btn-outline-orang m-1">Contactez-nous</button>
+         </span>
+         </div>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item style={{height:"450px"}}>
+      <Carousel.Item style={{height:"500px"}}>
       <div className='demo'>
-      <img className='w-100' src={image3}/>
+      <img className='w-100' src={image01}/>
       </div>
-        <Carousel.Caption style={{position:"absolute",top:"20px",left:"30px"}}>
-        <div className='text-black'>
-          <h3  className=' animate__animated animate__fadeInRight' style={{animationDelay:"0.1s"}}>Third slide label</h3>
-          <p className=' animate__animated animate__fadeInRight' style={{animationDelay:"0.5s"}}>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+      <Carousel.Caption style={{position:"absolute",top:"40px",left:"12%",textAlign:"start" }}>
+        <div className='bac'>
+          <h3 className=' animate__animated animate__fadeInRight' style={{animationDelay:"0.1s"}}>Application Pos gastro</h3>
+          <p  className=' animate__animated animate__fadeInRight' style={{animationDelay:"0.5s"}}>L'assistance qu'il vous faut pour mieux gérer votre restaurant.</p>
+          <ul className=' animate__animated animate__fadeInRight' style={{animationDelay:"0.8s"}}>
+            <li>Gestion des clients et des fournisseurs</li>
+            <li>Question des tables et des cuisines</li>
+            <li>Rôles de serveur et de chefs</li>
+            <li>Réçu et facture personnalisés</li>
+          </ul>
+          <p  className=' animate__animated animate__fadeInRight' style={{animationDelay:"1s"}}>Abonnement annuel à seulement : <br/> <h3>2950 DH HT</h3></p>
+        <span  className=' animate__animated animate__fadeInUpBig' style={{animationDelay:"1s"}}> 
+        <button style={{backgroundColor: "509650",color: "white"}} className="btn btn-orang m-1">Plus d'option</button>
+         <button style={{borderColor: "#509650",color: "#509650"}} className="btn btn-outline-orang m-1">Contactez-nous</button>
+         </span>
          </div>
         </Carousel.Caption>
       </Carousel.Item>

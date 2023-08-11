@@ -1,0 +1,18 @@
+.btn-green{
+    background-color: #5ec15e;
+    color: #e3e9e3;
+    }
+    .btn-outline-green{
+    border: 2px solid #71be71;
+    color: #71be71;
+    }
+    .btn-green:hover{
+        background-color: #419441;
+        color: #e3e9e3;
+    }
+    
+    .btn-outline-green:hover{
+        border: 2px solid #71be71;
+        background-color: #9deb9d2d;
+        color: #71be71;
+        }  
