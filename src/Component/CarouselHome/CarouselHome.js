@@ -12,7 +12,7 @@ const CarouselHome = () => {
         
         <Carousel controls dark>
     
-      <Carousel.Item style={{height:"500px"}}>
+      <Carousel.Item style={{height:"550px"}}>
        <div className='demo'>
        <img className='w-100' src={image1}/>
        {/* <p style={{position:"absolute",top:"20px",left:"30px"}}>Lorem bgfxbfgbnfnghngfh ghn,ghn,g</p> */}
@@ -29,13 +29,13 @@ const CarouselHome = () => {
           </ul>
           <p  className=' animate__animated animate__fadeInRight' style={{animationDelay:"1s"}}>Abonnement annuel à seulement : <br/> <h3>2950 DH HT</h3></p>
         <span  className=' animate__animated animate__fadeInUpBig' style={{animationDelay:"1s"}}> 
-        <button style={{backgroundColor: "509650",color: "white"}} className="btn btn-orang m-1">Plus d'option</button>
+        <button style={{backgroundColor: "#509650",color: "white"}} className="btn btn-orang m-1">Plus d'option</button>
          <button style={{borderColor: "#509650",color: "#509650"}} className="btn btn-outline-orang m-1">Contactez-nous</button>
          </span>
          </div>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item style={{height:"500px"}}>
+      <Carousel.Item style={{height:"550px"}}>
       <div className='demo'>
         <img className='w-100' src={image02}/>
         </div>
@@ -51,13 +51,13 @@ const CarouselHome = () => {
           </ul>
           <p  className=' animate__animated animate__fadeInRight' style={{animationDelay:"1s"}}>Abonnement annuel à seulement : <br/> <h3>2950 DH HT</h3></p>
         <span  className=' animate__animated animate__fadeInUpBig' style={{animationDelay:"1s"}}> 
-         <button style={{backgroundColor: "509650",color: "white"}} className="btn btn-orang m-1">Plus d'option</button>
+        <button style={{backgroundColor: "#509650",color: "white"}} className="btn btn-orang m-1">Plus d'option</button>
          <button style={{borderColor: "#509650",color: "#509650"}} className="btn btn-outline-orang m-1">Contactez-nous</button>
          </span>
          </div>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item style={{height:"500px"}}>
+      <Carousel.Item style={{height:"550px"}}>
       <div className='demo'>
       <img className='w-100' src={image01}/>
       </div>
@@ -73,7 +73,7 @@ const CarouselHome = () => {
           </ul>
           <p  className=' animate__animated animate__fadeInRight' style={{animationDelay:"1s"}}>Abonnement annuel à seulement : <br/> <h3>2950 DH HT</h3></p>
         <span  className=' animate__animated animate__fadeInUpBig' style={{animationDelay:"1s"}}> 
-        <button style={{backgroundColor: "509650",color: "white"}} className="btn btn-orang m-1">Plus d'option</button>
+        <button style={{backgroundColor: "#509650",color: "white"}} className="btn m-1">Plus d'option</button>
          <button style={{borderColor: "#509650",color: "#509650"}} className="btn btn-outline-orang m-1">Contactez-nous</button>
          </span>
          </div>

@@ -9,6 +9,9 @@
 .hcar{
     height: 900px;
 } */
+ul{
+    list-style: none;
+}
 .bac{
     color: #1F1717;
 }

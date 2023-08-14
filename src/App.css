@@ -2,11 +2,18 @@
   font-family: Roboto;
   src: url("./Component/font/Roboto-Regular.ttf");
 }
+
+/* @font-face {
+  font-family: AlteHaasGroteskRegular;
+  src: url("./Component/font/AlteHaasGroteskRegular.ttf");
+} */
+
 .App {
   text-align: center;
   overflow-x: hidden;
-  /* font-family: 'Roboto'; */
-  font-family: 'Roboto'; 
+  font-family: 'Roboto';
+  /* background-image: linear-gradient(to right, #fafcfe, #ecf4fd ); */
+background-color: #fafcff;
 }
 
 .App-logo {

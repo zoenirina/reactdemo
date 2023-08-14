@@ -13,7 +13,7 @@ const ServiceCard = ({titre,prix,liste,footer}) => {
                 <li style={{listStyle:"none"}}>{data}</li>
                 )}
                 <br/>
-          <p className='pl-5' style={{textAlign: "start"}}>A seulement: <span style={{color: "#ff8000"}}>{prix}  DH HT*</span></p>       
+          <p className='pl-5' style={{textAlign: "start"}}>A seulement: <h4 style={{color: "#ff8000"}}>{prix}  DH HT*</h4></p>       
         </ul>
         <img className='h-50'  style={{marginLeft:"80px",marginTop:"50px"}} src={image1}/>
         </div>

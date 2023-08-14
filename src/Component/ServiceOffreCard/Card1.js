@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Card2.css"
+import "./Card1.css"
 
 const data =
     {
@@ -31,8 +31,8 @@ const Card1 = ({titre,titrebold,text,list,prix}) => {
         </div>
         <span>{prix}</span>
             {/* <p className='pl-5' style={{textAlign: "start"}}>A seulement: {prix} DH HT*</p> */}
-        <button className='btn btn-green w-100 mb-1'>DECOUVRIR</button>
-        <button className='btn btn-outline-green w-100 mb-5'>CONTACTEZ-NOUS</button>
+        <button style={{backgroundColor: "#5ec15e",color: "#e3e9e3"}} className='btn btn-green w-100 mb-1'>DECOUVRIR</button>
+        <button style={{borderColor: "#5ec15e",color: "#5ec15e"}} className='btn btn-outline-green w-100 mb-5'>CONTACTEZ-NOUS</button>
         
     </div>
   )
