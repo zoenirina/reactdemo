@@ -60,7 +60,7 @@ const Slide = () => {
         //   repeat: 1,
         //   repeatType: "reverse",duration: 2}}
 initial={{left:'0px'}}
-whileInView={{left:'10px'}}
+whileInView={{left:'30px'}}
 
         animate={{  x: 200  }}
        transition={{ type: 'spring' }}
@@ -68,11 +68,24 @@ whileInView={{left:'10px'}}
                 <button>coucou</button>
         </motion.div>
 
-        <div className='mb-5 col-12 p-5 bg-orange text-white'>
+        <div className='mb-5 p-5 bg-orange text-white'>
         <h2>{datas[selected].left[0]}</h2>
         <p className='w-60 text-orange-l'>Booster votre business grâce à un E-commerce qui donne à vos produits davantage de visibilités et permet à vos internautes d'effectuer leurs achats en toute sécurité</p>
         <button id='bg-orange' className='btn bg-green bg-white m-1'>site web</button>
         <button className='btn bg-outline-green m-1'>application</button>
+
+        <div className='d-flex justify-content-center space-between'>
+                <div className='m-1 p-5'>
+                        <h3 className='circle-num'>96%</h3><span>client satisfait</span>       
+                </div>
+                <div className='m-1 p-5'>
+                        <h3 className='circle-num'>+99</h3><span>projets réalisés</span>       
+                </div>
+                <div className='m-1 p-5'>
+                        <h3 className='circle-num'>+12</h3><span>partenaires</span>       
+                </div>
+        </div>
+
         </div>
         {/* <div className='col-6'>
         <h2>Votre solution sur mesure</h2>
@@ -114,8 +127,7 @@ whileInView={{left:'10px'}}
         <button className='btn btn-primary'>DECOUVRIR</button>
         </div>
         </div> */} 
-<div className='col-6 animate__animated animate__fadeInLeft' style={{animationDelay:datas[selected].left[5]}}>
-        
+<div className='col-6 animate__animated animate__fadeInLeft' style={{animationDelay:datas[selected].left[5]}}>  
         <motion.p 
 key={selected}
 initial={{opacity:0, x:-100}}

@@ -41,3 +41,12 @@
   border: 2px solid rgb(230, 115, 0);
   color:rgb(230, 115, 0);
 }
+.circle-num{
+   width: 100px;
+  height: 100px; 
+align-items: center;
+padding-top: 28px;
+  border-radius: 100%;
+  border: 5px solid #eaf6ee;
+  color: #e5fee5;
+}
